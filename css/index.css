@@ -1,0 +1,41 @@
+.container {
+    background-color: aqua;
+    height: 200px;
+}
+.img-container{
+    width: auto;
+    height: 400px;
+    background-image: url("../assets/bg-img.png")  
+}
+.img-container img {
+    width: 100%;
+}
+@media  screen and (min-width: 120px) {
+    .container {
+        background-color: rgb(106, 18, 100);
+    }
+    .img-container {
+        width: 100%;
+        height: 500px
+    }
+}
+@media  screen and (min-width: 768px) {
+    .container {
+        background-color: red;
+    }
+    .img-container {
+        width: 100%;
+        height: 200px
+    }
+}
+@media  screen and (min-width: 1200px) {
+    .container {
+        background-color: rgb(18, 71, 106);
+    }
+    .img-container {
+        width: 100%;
+        height: 100px;
+        /* object-fit: contain; */
+        
+    }
+}
